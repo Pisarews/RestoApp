@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Resto.RestaurantTable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Resto"
+             mc:Ignorable="d" 
+             
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Button Click="Rectus_Click"  Content="5" x:Name="Rectus" AllowDrop="True" PreviewMouseDown="Rectus_PreviewMouseDown" PreviewMouseUp="Rectus_PreviewMouseUp" PreviewMouseMove="Rectus_PreviewMouseMove">
+        </Button>
+        
+    
+    </Grid>
+</UserControl>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resto", "Resto.csproj", "{B48EB180-D99E-44E2-8EF4-6154299F4FE8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RestoCore", "..\RestoCore\RestoCore.shproj", "{B08B05C8-8F7C-47A6-99E1-F14807A0BFDA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\RestoCore\RestoCore.projitems*{b08b05c8-8f7c-47a6-99e1-f14807a0bfda}*SharedItemsImports = 13
+		..\RestoCore\RestoCore.projitems*{b48eb180-d99e-44e2-8ef4-6154299f4fe8}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48EB180-D99E-44E2-8EF4-6154299F4FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48EB180-D99E-44E2-8EF4-6154299F4FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48EB180-D99E-44E2-8EF4-6154299F4FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48EB180-D99E-44E2-8EF4-6154299F4FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {387FB128-6CE6-4970-8487-A1814D1F0D13}
+	EndGlobalSection
+EndGlobal
