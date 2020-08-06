@@ -26,7 +26,7 @@
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Column="0">Is Reserved: </TextBlock>
-                    <RadioButton Content="Yes" Name="RadioButtonYes" Grid.Column="1" IsChecked="True" Checked="RadioButtonYes_Checked"></RadioButton>
+                    <RadioButton Content="Yes" Name="RadioButtonYes" Grid.Column="1" IsChecked="False" Checked="RadioButtonYes_Checked"></RadioButton>
                     <RadioButton Name="RadioButtonNo" Content="No" Grid.Column="2" IsChecked="False" Checked="RadioButtonNo_Checked"></RadioButton>
                 </Grid>
                 
