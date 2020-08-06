@@ -5,12 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Resto"
              mc:Ignorable="d" 
-             
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Button Click="Rectus_Click"  Content="5" x:Name="Rectus" AllowDrop="True" PreviewMouseDown="Rectus_PreviewMouseDown" PreviewMouseUp="Rectus_PreviewMouseUp" PreviewMouseMove="Rectus_PreviewMouseMove">
-        </Button>
-        
-    
+        <Button Click="Rectus_Click"  Content="5" x:Name="Rectus" AllowDrop="True" PreviewMouseDown="Rectus_PreviewMouseDown" PreviewMouseUp="Rectus_PreviewMouseUp" PreviewMouseMove="Rectus_PreviewMouseMove"/>
     </Grid>
 </UserControl>
